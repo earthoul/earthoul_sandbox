@@ -1,0 +1,26 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{xparse}
+\usepackage{xstring}
+  \newcommand\smod[1]{\protect\StrSubstitute{#1}{ſ}{s}}
+%\usepackage[at]{easylist}
+
+\usepackage{fontspec}
+  \setmainfont{IM FELL English PRO}[
+    FeatureFile = s2s.fea,
+    Ligatures = Rare,
+    SmallCapsFeatures = {Letters=SmallCaps}
+  ]
+  \renewcommand\bfseries{\scshape}
+
+\begin{document}
+Hello, world.
+
+\tableofcontents
+
+\section{Blah}
+Blah.
+
+\section{Reſt in Peace.}
+Reſt in Peace.
+
+\end{document}
