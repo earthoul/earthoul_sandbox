@@ -1,2 +1,2 @@
 # earthoul_sandbox
-The very first sandbox. That's all.
+This is the very first sandbox, still occasionally used to learn entry-level tips.
